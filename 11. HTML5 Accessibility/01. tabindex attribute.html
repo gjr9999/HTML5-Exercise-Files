@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tabindex</title>
+    </head>
+    <body>
+        <form action="http://www.google.com" method="post">
+            <label for="username">Username: </label>
+            <input type="text" placeholder="Username" title="Username" required="required" id="username" tabindex="1"> <br><br>
+            <label>E-Mail: </label>
+            <input type="email" placeholder="E-Mail" title="E-Mail" required tabindex="2"> <br><br>
+            <label for="pwd">Password: </label>
+            <input type="password" placeholder="Password" title="Password" pattern="[0-9]{3}" id="pwd" tabindex="3"> <br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>
